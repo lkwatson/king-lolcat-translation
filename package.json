@@ -1,0 +1,22 @@
+{
+  "name": "king-lolcat-translation",
+  "version": "0.0.1",
+  "description": "3 way translation between 'modern' english, King James english, and lolcat language",
+  "author": "Lucas Watson, John Williams",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkwatson/king-lolcat-translation"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.17",
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": true,
+  "private": true,
+
+  "license": "MIT"
+}
