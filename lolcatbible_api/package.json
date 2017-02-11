@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "promise-limit": "^2.3.0",
+    "ramda": "^0.23.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
