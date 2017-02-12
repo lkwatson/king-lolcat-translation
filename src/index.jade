@@ -1,6 +1,6 @@
 #scroll-wrap.container
   header
-    img.kinglolcat(src="/public/framedkinglolcat.png")
+    img.kinglolcat(src="./public/framedkinglolcat.png")
     .bottom-header
       h1 The King Lolcat Translation Project
   
@@ -8,11 +8,11 @@
     #bookshelf.bookshelf
       for book in books
         figure
-          a.book(href="/books/#{book.url}")
+          a.book(href="./books/#{book.url}")
             .cover
-              .front(style="background: linear-gradient(to right,rgba(0,0,0,0.1) 0%,rgba(211,211,211,0.1) 5%,rgba(255,255,255,0.15) 5%,rgba(255,255,255,0.1) 9%,rgba(0,0,0,0.01) 100%),url(/public/#{book.img}), #{book.color}; background-size: cover;")
+              .front(style="background: linear-gradient(to right,rgba(0,0,0,0.1) 0%,rgba(211,211,211,0.1) 5%,rgba(255,255,255,0.15) 5%,rgba(255,255,255,0.1) 9%,rgba(0,0,0,0.01) 100%),url(./public/#{book.img}), #{book.color}; background-size: cover;")
           .buttons
-            a(href="/books/#{book.url}") read teh book!
+            a(href="./books/#{book.url}") read teh book!
           //- figcaption
           //-   h2= book.title
           //-     span= book.author
