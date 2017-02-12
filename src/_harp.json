@@ -6,7 +6,7 @@
         "author": "Bram Stoker",
         "img": "dracula.jpg",
         "color": "white",
-        "url": "dracula"
+        "url": "pride"
       },
       {
         "title": "Pride and Prejudice",
@@ -16,11 +16,11 @@
         "url": "pride"
       },
       {
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "img": "dracula.jpg",
-        "color": "red",
-        "url": "/dracula/"
+        "title": "Tale of Two Cities",
+        "author": "Charles Dickens",
+        "img": "twocities.jpg",
+        "color": "grey",
+        "url": "pride"
       }
     ]
   }
