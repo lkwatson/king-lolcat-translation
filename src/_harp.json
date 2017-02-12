@@ -1,0 +1,27 @@
+{
+  "globals": {
+    "books": [
+      {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "img": "dracula.jpg",
+        "color": "white",
+        "url": "pride"
+      },
+      {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "img": "pride.jpg",
+        "color": "pink",
+        "url": "pride"
+      },
+      {
+        "title": "Tale of Two Cities",
+        "author": "Charles Dickens",
+        "img": "twocities.jpg",
+        "color": "grey",
+        "url": "pride"
+      }
+    ]
+  }
+}
