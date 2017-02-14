@@ -1,11 +1,11 @@
 const fs = require("fs");
 const R = require("ramda");
 
-const lolcat = require("./data_set/lolcat.clean.json")
+const lolcat = require("./cleaned/lolcat.clean.json")
 
 /* Using two english translations as an experiment */
-const eng = require("./data_set/eng.clean.json")
-const en_bbe = require("./data_set/en_bbe.clean.json")
+const eng = require("./cleaned/eng.clean.json")
+const en_bbe = require("./cleaned/en_bbe.clean.json")
 
 /*
 {
@@ -72,9 +72,9 @@ function formatEn_bbe(input, max=Infinity) {
 
 
 
-// writeJSON("formatted/lolcat.json", formatLolcat(lolcat))
-// writeJSON("formatted/eng.json", formatEng(eng))
-// writeJSON("formatted/en_bbe.json", formatEn_bbe(en_bbe))
+writeJSON("formatted/lolcat.json", formatLolcat(lolcat))
+writeJSON("formatted/eng.json", formatEng(eng))
+writeJSON("formatted/en_bbe.json", formatEn_bbe(en_bbe))
 
 
 
