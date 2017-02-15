@@ -1,15 +1,12 @@
 const repl = require("repl");
 const R = require("ramda");
 
-const lolcat = require("./formatted/lolcat.json")
-const eng = require("./formatted/eng.json")
-const en_bbe = require("./formatted/en_bbe.json")
-
 const context = { 
   R, 
-  lolcat, 
-  eng, 
-  en_bbe 
+  // lolcat: require("./formatted/lolcat.json"),
+  // eng: require("./formatted/eng.json"),
+  // en_bbe: require("./formatted/en_bbe.json"),
+  merged: require("./prepped/merged.json")
 }
 
 const replServer = repl.start({
